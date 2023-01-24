@@ -2,13 +2,13 @@
 % Racha Cuca - Barraca de Pastel
 % https://rachacuca.com.br/logica/problemas/barraca-de-pastel/
 % Gabriel Azevedo Santos Lopes
- * /* A resposta será do tipo:
-mesa(cliente(,,,,,),
-     cliente(,,,,,),
-     cliente(,,,,,),
-     cliente(,,,,,),
-     cliente(,,,,,)).
-*/
+ % A resposta será do tipo:
+%mesa(cliente(,,,,,),
+     %cliente(,,,,,),
+     %cliente(,,,,,),
+     %cliente(,,,,,),
+     %cliente(,,,,,)).
+
 resolve(Sol) :-
     Sol = mesa(_,_,_,_,_),
     % Júlio está exatamente à direita do Bancário.
